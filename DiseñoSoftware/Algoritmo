@@ -1,0 +1,50 @@
+{Algoritmo: Conjunto de instrucciones}
+
+Input --> Procesos --> Output
+
+
+°Principios de diseño:
+
+1.- DRY: Dont repeat yourself
+2.- KISS: Keep it simple and stupid
+3.- RTFM: Read the fucking manual 
+
+
+°Estrategia de diseño
+
+-Pseudo codigo: Reperesentación de alto nivel diseñado para ser leido por humanos 
+                y no por maquinas (claro y breve)
+
+-Diagrama de flujo: Representacion esquematica de un pseudocodigo. Incorporan IO, 
+                    condicionales, iteraciones y variables
+
+°POO vs Procedimental
+
+-Programacion procedimental: Descomponer el problema siguiendo acciones para abordarlo
+                             (verbos)
+
+-POO: Descomponer el problema privilegiando los datos al ser representados en el programa
+      (sustantivo)
+
+°Principios SOLID
+
+1.-SRP: Principio de respomsabilidad unica (cada clase debe tener una unica razon para 
+        cambiar)
+
+2.-OCP: Principio de abierto/cerrado (entidades virtuales abiertas para extension cerradas
+        para modificacion)
+
+3.-LSP: Principio de sustitucion de Liskov (objetos deben ser reemplazables por instancias)
+
+4.-ISP: Principio de segregacion de interfaces (clientes deben conocer los metodos que
+        realmente usan, no los que no)
+
+5.-DIP: Principio de inversión de la dependencia (los modulos de alto nivel no deberian
+        depende de los modulos de bajo nivel. Las abstracciones no deberian de los detalles) 
+
+°UML: Lenguaje grafico para visualizar, especificar, construir y documentar un sistema.
+      (Diagrama --> Diagrama de Estructura --> Diagrama de clases (relacionado con POO))
+
+-Diagrama de clases: Organizacion de un sistema mostrando clases, atributos, operaciones
+                     y relaciones entre objetos 
+
