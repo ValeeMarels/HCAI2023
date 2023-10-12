@@ -1,3 +1,3 @@
 # hcai2023
-Curso astroinformatica magister astronomia 2023 ayuda
+Portafolio: Curso astroinformatica magister astronomia 2023 
 
