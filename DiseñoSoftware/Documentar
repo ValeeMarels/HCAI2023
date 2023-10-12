@@ -1,0 +1,20 @@
+Documentacion de Software
+
+Describe el funcionamiento, implementacion y uso de un sistema de software
+
+-Publico: --> Usuarios (Utilizan el software final)
+          --> Desarrolladores (Deben acceder a los detalles de implementacion)
+
+-Que documentar: --> Software final (manuales, sitios web, wikis)
+                 --> Codigo fuente (Tenico) (archivos, modulos, clases)
+
+-Como documentar: --> Claridad        --> Consistente
+                  --> Actualizado     --> Objetiva (¿por qué?)
+
+ °Codigo fuente: --> Bloques de codigo (conjunto de instrucciones. comentar breve%)
+                 --> Clases (describir objetos, atributos y metodos)
+                 --> Funciones (rutina: input, output, limitaciones, uso)
+
+$Python tiene docstrings para facilitar la documentacion siguiendo la estructura del lenguaje$
+
+
