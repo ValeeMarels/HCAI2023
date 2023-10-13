@@ -1,0 +1,11 @@
+Tema 4: Makefile
+¿Que es?
+¿Para que sirve?
+¿Como se usa?
+
+
+
+Es un archivo que se utiliza para automatizar el proceso de compilacion de los archivos que componen un programa. 
+Contiene reglas e instrucciones necesarias para compilar. 
+
+Primeramente se crea un archivo de construccion  y se definen las de como compilar y construir el proyecto especificando dependencias de archivos fuentes para generar el programa. 

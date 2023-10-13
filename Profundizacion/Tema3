@@ -1,0 +1,9 @@
+Tema 3: Investigar las historias y carateristicas de C y C++
+¿En que se diferencian C y C++?
+¿Cual antecede al otro?
+¿Tienen el mismo paradigma/nivel de abstraccion?
+¿Tiene alguna (des)ventaja uno por sobre el otro?
+
+
+C es un lenguaje de programacion de nivel medio creado en los 70, se estructura en funciones que manipulan datos. Se utiliza normalmente en aplicaciones de bajo nivel. 
+Por otro lado C++ es una extension de C  creada en los 80, introduce la programacion orientada a objetos y permite una programacion mas estructurada. Es mas complejo que C y se usa para desarrollar aplicaciones de alto nivel. 

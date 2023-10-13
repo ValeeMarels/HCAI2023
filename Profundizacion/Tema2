@@ -1,0 +1,10 @@
+Tema 2: Investigar sobre el uso de ramas en git
+¿Para que se utilizan?
+¿Cuales son los beneficios de utilizarlas de forma regular?
+
+Las ramas son versiones que se separan de una rama principal y su objetivo es poder trabajar en ellas y solucionar problemas sin afectar la rama principal. 
+Son lineas independientes que permiten la colaboracion y permiten una adecuada organizacion del repositorio. 
+
+Entre las principales ventajas esta el poder probar nuevas ideas sin comprometer el proyecto principal, permite mantener versiones anteriores y hacer seguimiento de los cambios. Ademas diferentes miembros del equipo pueden trabajar paralelamente para luego fusionar las ramas. 
+
+ 
