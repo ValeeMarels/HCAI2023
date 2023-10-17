@@ -1,2 +1,5 @@
 Tema 6: "Iteradores y generadores en python"
 
+Los iteradores son objetos que pueden recorrer los elementos de una lista uno por uno sin necesidad de cargarlos todos en la memoria al mismo tiempo. Son utilizados para trabajar grandes volumenes de datos. 
+
+Por otro lado los generadores (funciones) son una forma de crear iteradores de manera eficiente en cuanto a memoria. Al igual que los iteradores, son utiles para grandes volumenes de datos y cuando no se pueden almacenar secuencias compoletas en memoria.  
