@@ -1,12 +1,20 @@
-Almacenamiento de archivos de textos (ASCII)
+Que debemos considerar de los datos
 
-Conjunto de caracteres ordenados de forma secuencial.
+1.- Almacenamiento: Donde permaneceran luego del uso (proyectar tiempo de vida, riesgos de perdida)
 
-La escritura de un valor numerico en un archivo de texto implica:
+2.- Composicion: Tipo de dato almacenado (numerico/categorico, homogeneo/heterogenero)
 
--Conversion de binario a decimal
--Truncacion de la representacion decimal 
--Conversion a cadena de caracteres 
--Escritura en archivo de caracteres, incluyendo un delimitador 
+3.- Tamaño: Cantidad de bytes que ocupan 
 
-***El proceso de lectura va en orden inverso***
+4.- Comunicacion: Considerar el publico que usara los datos (descripcion)
+
+5.- Escalamiento: Datos estaticos o modificables con el tiempo (crecimiento)
+
+**Almacenamiento de texto plano**
+
+.TXT: Texto sin formato (usualmente plano) basico y libre
+
+.CSV(.TSV): Usan comas para delimitar campos
+
+**Almacenamiento en binario**
+
