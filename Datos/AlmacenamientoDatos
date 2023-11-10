@@ -1,4 +1,4 @@
-Que debemos considerar de los datos
+**Que debemos considerar de los datos**
 
 1.- Almacenamiento: Donde permaneceran luego del uso (proyectar tiempo de vida, riesgos de perdida)
 
@@ -16,5 +16,19 @@ Que debemos considerar de los datos
 
 .CSV(.TSV): Usan comas para delimitar campos
 
+
+
 **Almacenamiento en binario**
+Datos en representacion legible por la maquina
+
+Ventajas: Tamaño (menos espacio), rapidez (i/o sin procesamiento), presición(almacena sin reduccion de cifras significativas)
+
+Desventajas: Necesidad de conocer tipos de datos y su orden, algunas PC pueden usar representaciones distintas de los datos
+
+
+
+
+
+
+
 
