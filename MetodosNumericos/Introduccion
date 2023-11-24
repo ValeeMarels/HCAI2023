@@ -1,0 +1,53 @@
+¿Que son los metodos numericos?
+
+Algoritmos para la manipulacion y solucion de problemas matematicos.
+Permite modelar y resolver (interpolacion, aproximacion, diferenciacion, integracion y optimizacion, como chi cuadrado, predictivos)
+
+
+SciPy: 
+
+- scipy.integrate (integracion numerica para funciones y EDO)
+- scipy.optimize (minimizacion de funciones, ajuste de curvas, raices)
+- scipy.interpolate (interpolacion datos uni/multi dimensionales)
+- scipy.signal (procesamiento de señales)
+- scipy.linalg (algebra lineal avanzada)
+- scipy.stats (distribuciones de probabilidad, test, estadisticas)
+- scipy.ndimage (procesamiento de imagenes multidimensionales)
+
+
+Interpolacion y aproximacion: 
+
+-Interpolacion (Funcion que pase *exactamente* por un conjunto de datos, rellenando vacios)
+               scipy.interpolate.interpld
+
+-Aproximacion (Funcion que se aproxime a los datos. Coincidencia cercana que minimice el error total)
+              scipy.stats.linregress
+
+
+
+Ajuste de curvas: 
+
+Modelar datos con el fin de encontrar el mejor ajuste de los parametros del modelo
+
+- Minimos cuadrados (Funcion que minimiza la suma de los cuadrados de las diferencias entre los datos y la funcion de ajuste S(P). )
+
+S(P) se resuelve analiticamente considerando una derivada de la funcion c/r a cada parametro valen 0. Lo cual define un sistema de m ecuaciones en cuadratura.
+
+En caso de que no sea solucionable analiticamente se usa Gauss-Newton, Descenso de gradiente, etc.
+
+*scipy.optimiza.curve_fit*
+
+-Reduccion chi cuadrado (Que tan bien se ajusta a los datos observados un modelos teorico. Cada diferencia se pesa por la varianza/error asociado a cada dato)
+
+
+
+
+
+
+
+
+
+
+
+
+

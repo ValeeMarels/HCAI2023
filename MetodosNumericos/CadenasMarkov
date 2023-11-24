@@ -1,0 +1,33 @@
+Cadenas de Markov 
+
+Cadenas extensibles 
+
+
+
+
+-Transiciones:
+Las transiciones son los cambios de un estado a otro.
+Podemos definir una matriz de transicion: 
+
+
+-Utilizacion: 
+Se usan para modelar sistemas que se pueden describir por estados. Nos permite calcular la probabilidad de transicion para cualquier secuencia de estados. 
+Prediccion meteorologica, bioinformatica, salud, economia.
+IA, machine learning, redes neuronales, evaluacion de software
+Juegos de azar, entretenimiento, modelos financieros.
+
+-Cadenas de Markov con Monte Carlo: 
+MCMC son un conjunto de algoritmos que me permiten determinar de forma empirica cual es una distribucion de probabilidad particular. Permite estimar distibuciones complejas. 
+  
+     + Metodología: Definir un estado inicial (que tan probable )
+                    Definir transiciones a nuevos estados basandose en reglas probabilisticas
+                    
+
+     + Metropolis-Hastings: Metodo para obtener una secuencia de muestras aleatorias de una districion de probabilidad.
+                            Se propone una nueva muestra y decidiendo si aceptarla o rechazarla en funcion de la probabilidad relativa de la muestra actual.  
+
+
+
+
+
+
