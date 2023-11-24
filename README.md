@@ -1,5 +1,5 @@
-#Herramientas computacionales para la astroinformatica
-##Portafolio: HCAI- Magister en Astronomia 2023##
+# Herramientas computacionales para la astroinformatica
+## Portafolio: HCAI- Magister en Astronomia 2023
 
 1. *Codigos*: Codigos en C y Python de ejemplos realizados en clases. Desde las primeras unidades del curso hasta Programacion Orientada a Objetos.
 
