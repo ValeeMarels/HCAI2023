@@ -1,6 +1,7 @@
-Metodos directos para calcular fuerzas
+***Metodos directos para calcular fuerzas***
 
--Particle-Particle integration method: Se basa en calcular la fuerza que cada partícula ejerce en as otras partículas del sistema. Poco eficiente y no sirve para simulaciones de galaxias,
+-Particle-Particle integration method: Se basa en calcular la fuerza que cada partícula ejerce en as otras partículas del sistema. 
+                                       Poco eficiente y no sirve para simulaciones de galaxias,
 
 
 
@@ -10,10 +11,82 @@ Metodos directos para calcular fuerzas
 
      2.-Se calcula la masa y el centro de masa de las subdivisiones mas grandes a las mas pequeñas hasta llegar a la masa individual de la particula.
 
-     3.- Angulo de apertura (limite angular en el cual un grupo de particulas puede ser aproximado al centro de masa de un una particula) L/D > O. Es definido por uno. (Si O es muy pequeño se vuelve al caso de PP method). 
-       -Barnes-Hut: L/D < O
-       -Min.distance: L/D < O
-       -Bmax: b/D < O
+     3.- Angulo de apertura (limite angular en el cual un grupo de particulas puede ser aproximado al centro de masa de un una particula) L/D > O. 
+         Es definido por uno. (Si O es muy pequeño se vuelve al caso de PP method). 
+            -Barnes-Hut: L/D < O
+            -Min.distance: L/D < O
+            -Bmax: b/D < O
+        
+     El utilizar centros de masas puede generar errores en los calculos de la fuerza. Para mejorar estas estimaciones se utilizan expansiones 
+     multipolares de la distribucion de masa dentro de queda celda. Tipicamente hasta considerar el cuadruplo es suficiente.  
+       
+
+
+-Particle-Mesh: El potencial gravitacional del sistema se construye sibre una rejilla a partir del campo de densidad y  
+                resolviendo la ecuacion de Poisson.
+
+    1.-Interpolar la masa de las particulas en la grilla (cartesiana)
+    
+    2.-Resolver la ecuacion de Poisson utilizando Fourier para obtener el potencial de la grilla.
+
+
+    Es facil de implementar. Para las aplicaciones en las que la masa llena el volumen, suele ser mas rapido que el metodo del arbol (O(N ln N) cte.
+    en terminos mas pequeños). Sin embargo la aproximacion de la fuerza es anisotropica en la rejilla (una particula que deberia producir una fuerza        esfericamente simetrica se vera afectada por errores que seleccionan direcciones alineadas con la rejilla)
+
+
+
+-Asignación de masas:
+
+   1.-Nearest-Grid-Point (NGP):
+
+   2.-Cloud in cell (CIC):
+
+   3.-Triangular-Shaped-Cloud (TSC): 
+
+
+
+-Hibridos:
+
+   1.- Particle-Particle particle-mesh (P3M): Suma directa para partículas cercanas. 
+                                              PM PARA 
+
+
+***Metodos para integración de orbitas***
+
+Conociendo el potencial 
+
+Condiciones importantes para un buen metodo --> 1.- Consistencia: Cuando la solucion numerica n(x) producida por el metodo, tiene a la solucion exacta
+                                                                  cuando h tiende a 0. n(x) --> y(x) cuando h --> 0, lim(y(x))
+
+                                            --> 2.- Bajo error local: Precision de la solucion numerica en un punto o tiempo especifico en el computo.
+                                                                      Se calcula comparando la solucion numerica en un paso dado con la solucion 
+                                                                      numerica
+                                            
+                                            --> 3.- Bajo error global: Precision general de la solucion numerica a lo largo de todo el rango temporal.
+                                                                       Se calcula comparando la solucion numerica con la solucion exacta o mas precisa.
+                                                                       
+Se pueden utilizar integradores de alto orden () 
+o metodos simplecticos (conservan la energia en el tiempo, conservan el volumen en el espacio de fases)
+
+
+-Euler integration: x = x + vh  -->  v = v + ah  -->  a =
+                    Se usa el midpoint para la integracion: --> 1.- Calcular la pendiente en el punto inicial
+                                                                2.- Utilizar la pendiente para estimar el valor de y en el punto medio
+                                                                3.- Calcular la pendiente en el punto medio
+                                                                4.- 
+
+
+-Leapfrog integration: Preserva la densidad en el espacio de fase, reversible en el tiempo, conserva momento angular 
+ (simplecticos)
+
+
+-Fourth-order Runge-Kutta: 
+
+
+
+
+
+
 
 
 
