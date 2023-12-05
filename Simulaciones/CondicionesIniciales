@@ -1,0 +1,81 @@
+Distribucion del universo: Homogeneo e isotropico
+
+-Radiación cosmica de fondo: Mapa de isotropía
+                             -> Mapa oridinal
+                             -> Mapa donde se substrae T=2728K (dipolar, refleja el movimento de la Tierra c/r al CMB).
+                             -> 
+
+
+¿Como creamos una simulacion? 
+
+1.- Crear un universo homogeneo e isotropico (Caja de tamaño limitado)
+    *Condiciones de contorno periodicas (para hacerlo cada vez mas grande)(infinito)
+     ----           ------------
+     |  |    --->   |  ||  ||  |    La distancia r cuando paso por 0 sigue
+     ----           ------------    creciendo en cierta direccion (periodicidad)
+                    |  ||x ||  |
+                    ------------
+                    |  ||  ||  |
+                    ------------
+
+
+2.-Perturbar esta distribución d acuerdo al CMB
+   *Fluctuaciones de temperatura convertidas en perturbaciones de densidad
+    (Con condiciones iniciales)   
+         +++++++++--+ 
+         +++++++---++
+         ###+++---+++
+         +##+++++++++
+
+
+3.-Transformada de Fourier
+   Descomponer una señal en una suma de senos y cosenos. Cada onda tendra uns frecuencia y amplitud asociada.       ^
+                           |
+                           |        |
+                           | |      |
+                           | |      |
+                           |--------------- 
+                           |___________________>
+
+     
+   Cuantas veces es mas denso esa parte del universo?
+
+   *Función de correlacion y el espectro de perturbaciones iniciales (ver gif de clases)
+
+-Espectro de potencia: -> Adiabatic Cold Dark Matter   
+                       -> Isocurvatura Cold Dark Matter 
+                       -> Adiabatic Hot Dark Matter      
+
+ (No todas las estructuras son visibles en todos los modelos cosmologicos, velocidades de dispersion). Depende de como llega la masa (grumos).
+
+                      -> Hot dark matter  (descartado)(muy difuso)
+                      -> Warm dark matter
+                      -> Cold dark matter (mas detallado)
+
+-Evolución temporal: Todo sistema puede ser descrito por una funcion de distribucion en el espacio de las fases (Ej: Pendulo) f(x, v, t).
+
+       ->Colissionless boltzmann equation: Consideramos un fluido ideal, incompresible 
+         y sin fricción. La ecuación de boltzmann sin colision describe la evolucion de
+         la densidad de espacio de fases o funcion de distribucion de materia oscura.
+
+    En una galaxia, cumulo globular o halo de DM las interacciones gravitatorias entre
+    estrellas/particulas no son relevantes (no colisionan). 
+    Evaluacion de particula (0(r)).(Ej: Esfera de Plummer).
+
+    Las estructuras no estan colapsadas, por lo que no existe un potencial global que
+    se mantenga cte en el tiempo, debemos obtenerlo instante a instante.
+
+
+Aproximamos la distribucion continua en el espacio de las fases utilizando un metodo Monte Carlo
+      
+       ->Softening length:
+ 
+
+
+
+
+
+
+
+
+

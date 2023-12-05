@@ -1,0 +1,19 @@
+Metodos directos para calcular fuerzas
+
+-Particle-Particle integration method: Se basa en calcular la fuerza que cada partícula ejerce en as otras partículas del sistema. Poco eficiente y no sirve para simulaciones de galaxias,
+
+
+
+-Tree method: Tecnica utilizada en simulaciones de n cuerpos donde n 
+     
+     1.-Se genera una caja dividida en 4^n hasta asegurarme que en cada subdivision exista solo 1 partícula.
+
+     2.-Se calcula la masa y el centro de masa de las subdivisiones mas grandes a las mas pequeñas hasta llegar a la masa individual de la particula.
+
+     3.- Angulo de apertura (limite angular en el cual un grupo de particulas puede ser aproximado al centro de masa de un una particula) L/D > O. Es definido por uno. (Si O es muy pequeño se vuelve al caso de PP method). 
+       -Barnes-Hut: L/D < O
+       -Min.distance: L/D < O
+       -Bmax: b/D < O
+
+
+

@@ -1,0 +1,48 @@
+-Que es? 
+Integración numerica en el tiempo de las ecuaciones que gobiernan las distintas fuerzas(gravedad, presion, viscosidad, etc) actuando sobre un conjunto de N particulas. 
+Ayuda a entender sistemas complejos por posibles acoplamientos no lineales entre distintos procesos físicos. 
+
+
+
+
+-Como diagramamos?
+1.-Seleccionamos el problema/fenomeno
+2.-Que modelos vamos a utilizar para describir el sistema (procesos, suposiciones, simplificaciones.)
+3.-Generar condiciones iniciales (MAS COMPLICADO, debe mantenerse en el tiempo) 
+4.-Discretizar (metodo para resolver integrales, fuente de error)
+5.-Escribir/Seleccionar el codigo 
+
+Los metodos numericos son siempre aproximaciones a las soluciones exactas de una o varias ecuaciones (permite estudiar procesos no lineales que NO podrian ser resueltos analiticamente).
+Se generan utilizando supercómputos (alta resolución: 3 millones de horas CPU, 4800 procesadores, 1 mes por por simulacion)
+
+
+
+
+-Marco teorico 
+Modelo cosmológico estandar Lambda Cold Dark Matter (Principio cosmologico: Universo es homogeneo e isotropico).
+
+
+
+
+-Condiciones iniciales 
+Radiacion cosmica de fondo
+Hot/cold spots: 
+Inestabilidades gravitacionales y formacion de estructura (regimen lineal: Mecanica de fluidos, regimen no lineal: ???)
+
+
+
+
+-Metodo numerico 
+Ej: GADGET-2
+    Aquarius
+    Auriga
+
+
+-Ingradientes principales: -> Estrellas: (Evolucion, enriquecimiento, feedback, IMF)
+                           -> Materia oscura (Gravedad)
+                           -> Gas 
+
+
+
+
+
