@@ -9,3 +9,4 @@
 
 4. **Datos**: Apuntes y ejemplos de las clases relacionadas a Gestion, representacion y almacenamiento de datos 
 
+5. **Simulaciones**: Apuntes ultima unidad del curso (Profesor: Facundo Gómez)sobre simulaciones numericas.
