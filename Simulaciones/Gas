@@ -1,0 +1,32 @@
+Dinámica del gas
+
+El estado de un fluido esta especificado por la densidad, la presión, el campo de velocidad y el potencial gravitatorio. Si medimos estas variables especificamos el estado de un fluido (Formalismo Euleriano): 
+
+       -> Ec. de continuidad 
+       -> Ec. de movimiento
+       -> Potencial gravitacional
+       -> Conservación de la energía
+
+ -Enfoque Lagrangiano: Metodo hidrodinamico de partículas suavizadas (SPH)
+                       Divide el fluido en un conjunto de elementos moviles discretos llamados partículas.
+                       La naturaleza lagrangiana permite establecer la posición de cada partícula mediante la integración de la velocidad. 
+                       Estas particulas interactuan a traves de una funcion de nucleo con un radio característico conocido como longitud de suavizado
+
+        -> Ventajas: Es ilimitado en el espacio
+                     No se pierde tiempo modelando vacio 
+                     Resolucion adaptativa facil de implementar
+                     La historia de evolución del fluido es intrinsecamente facil de rastrear
+                     La naturaleza de las particulas facilita el acoplamiento con fisica de N-cuerpos o autogravedad
+                     La distribucion de masa entre particulas asegura la conservacion exacta de la masa
+
+        -> Desventajas: Se necesita construir y actualizar cte% listas de vecinospara evaluar suma de partículas
+                        Las condiciones iniciales pueden influir en el resultadofinal 
+
+
+
+ -Adaptative-mesh refinement: El codigo busca cajas de mejor densidad 
+
+La especificacion euleriana se centra en ubicaciones especificas 
+
+
+
